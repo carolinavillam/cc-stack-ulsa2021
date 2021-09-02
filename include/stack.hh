@@ -9,8 +9,8 @@ private:
 public:
   Stack();
   ~Stack();
-  Node* GetTop() const;// Peek, toma el top/head y lo muetras, pero no lo borra
-  void Pop(); //elimina lo que hay en head, osea lo atiende.
+  Node* GetTop() const;
+  void Pop(); 
   void Push(School*& school);
   bool IsEmpty() const;
   void Print();
