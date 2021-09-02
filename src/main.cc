@@ -28,5 +28,5 @@ int main()
   std::cin.get();
 
   delete stack;
-  return EXIT_SUCCESS;//es igual que poner return 0, esto es de c++
+  return EXIT_SUCCESS;
 }
